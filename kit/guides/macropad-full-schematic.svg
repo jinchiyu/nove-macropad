@@ -1,0 +1,350 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="1595" viewBox="0 0 2300 1595">
+<title>99BIT — schema completo USB, PCF8574 e 24 WS2812B</title>
+<desc>Schema funzionale USB, PCF8574 e 24 WS2812B. Etichette uguali sono collegate. Firmware integrato; BLE e Studio collaudati sul prototipo.</desc>
+<style>text{font-family:Arial,sans-serif;font-size:19px;fill:#173044}.title{font-size:34px;font-weight:bold}.head{font-size:24px;font-weight:bold}.small{font-size:16px}.warn{fill:#a03c13;font-weight:bold}.wire{fill:none;stroke:#23485c;stroke-width:2.5}</style>
+<rect width="2300" height="1595" fill="#f3f6f8"/>
+<text x="35" y="50" class="title" text-anchor="start">99BIT / SCHEMA ELETTRICO — USB + BLUETOOTH</text>
+<text x="35" y="90" class="" text-anchor="start">Revisione USB-PCF-RGB24-2026-10-12 · solo USB-C XIAO · nessuna batteria · pin rappresentati in ordine funzionale</text>
+<text x="35" y="128" class="warn" text-anchor="start">SDA su D2 / GPIO3; D4 non utilizzato. PCF 0x27 e OLED 0x3C verificati; BLE e Studio collaudati sul prototipo.</text>
+<text x="35" y="162" class="small" text-anchor="start">Stessa etichetta = stessa rete. Punto pieno = giunzione. Ponticello = incrocio senza contatto.</text>
+<rect x="25" y="195" width="925" height="915" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="50" y="234" class="head" text-anchor="start">01 / MATRICE 3 × 3 — 9 × 1N4148</text>
+<text x="50" y="270" class="small" text-anchor="start">A = anodo; K = catodo / fascia verso ROW.</text>
+<rect x="1110" y="280" width="430" height="830" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1135" y="325" class="head" text-anchor="start">PCF8574T / 3,3 V</text>
+<text x="1135" y="357" class="small" text-anchor="start">Backpack HW-061: piste da verificare</text>
+<text x="80" y="455" class="small" text-anchor="start">ROW1</text>
+<circle cx="145" cy="360" r="4" fill="#23485c"/>
+<circle cx="200" cy="360" r="4" fill="#23485c"/>
+<path class="wire" d="M145 360 L190 340"/>
+<text x="170" y="323" class="small" text-anchor="middle">K1</text>
+<path class="wire" d="M243 348 L268 360 L243 372 Z M271 345 V375"/>
+<text x="258" y="330" class="small" text-anchor="middle">D1</text>
+<text x="242" y="394" class="small" text-anchor="start">A</text>
+<text x="271" y="394" class="small" text-anchor="start">K</text>
+<circle cx="425" cy="360" r="4" fill="#23485c"/>
+<circle cx="480" cy="360" r="4" fill="#23485c"/>
+<path class="wire" d="M425 360 L470 340"/>
+<text x="450" y="323" class="small" text-anchor="middle">K2</text>
+<path class="wire" d="M523 348 L548 360 L523 372 Z M551 345 V375"/>
+<text x="538" y="330" class="small" text-anchor="middle">D2</text>
+<text x="522" y="394" class="small" text-anchor="start">A</text>
+<text x="551" y="394" class="small" text-anchor="start">K</text>
+<circle cx="705" cy="360" r="4" fill="#23485c"/>
+<circle cx="760" cy="360" r="4" fill="#23485c"/>
+<path class="wire" d="M705 360 L750 340"/>
+<text x="730" y="323" class="small" text-anchor="middle">K3</text>
+<path class="wire" d="M803 348 L828 360 L803 372 Z M831 345 V375"/>
+<text x="818" y="330" class="small" text-anchor="middle">D3</text>
+<text x="802" y="394" class="small" text-anchor="start">A</text>
+<text x="831" y="394" class="small" text-anchor="start">K</text>
+<text x="80" y="685" class="small" text-anchor="start">ROW2</text>
+<circle cx="145" cy="590" r="4" fill="#23485c"/>
+<circle cx="200" cy="590" r="4" fill="#23485c"/>
+<path class="wire" d="M145 590 L190 570"/>
+<text x="170" y="553" class="small" text-anchor="middle">K4</text>
+<path class="wire" d="M243 578 L268 590 L243 602 Z M271 575 V605"/>
+<text x="258" y="560" class="small" text-anchor="middle">D4</text>
+<text x="242" y="624" class="small" text-anchor="start">A</text>
+<text x="271" y="624" class="small" text-anchor="start">K</text>
+<circle cx="425" cy="590" r="4" fill="#23485c"/>
+<circle cx="480" cy="590" r="4" fill="#23485c"/>
+<path class="wire" d="M425 590 L470 570"/>
+<text x="450" y="553" class="small" text-anchor="middle">K5</text>
+<path class="wire" d="M523 578 L548 590 L523 602 Z M551 575 V605"/>
+<text x="538" y="560" class="small" text-anchor="middle">D5</text>
+<text x="522" y="624" class="small" text-anchor="start">A</text>
+<text x="551" y="624" class="small" text-anchor="start">K</text>
+<circle cx="705" cy="590" r="4" fill="#23485c"/>
+<circle cx="760" cy="590" r="4" fill="#23485c"/>
+<path class="wire" d="M705 590 L750 570"/>
+<text x="730" y="553" class="small" text-anchor="middle">K6</text>
+<path class="wire" d="M803 578 L828 590 L803 602 Z M831 575 V605"/>
+<text x="818" y="560" class="small" text-anchor="middle">D6</text>
+<text x="802" y="624" class="small" text-anchor="start">A</text>
+<text x="831" y="624" class="small" text-anchor="start">K</text>
+<text x="80" y="915" class="small" text-anchor="start">ROW3</text>
+<circle cx="145" cy="820" r="4" fill="#23485c"/>
+<circle cx="200" cy="820" r="4" fill="#23485c"/>
+<path class="wire" d="M145 820 L190 800"/>
+<text x="170" y="783" class="small" text-anchor="middle">K7</text>
+<path class="wire" d="M243 808 L268 820 L243 832 Z M271 805 V835"/>
+<text x="258" y="790" class="small" text-anchor="middle">D7</text>
+<text x="242" y="854" class="small" text-anchor="start">A</text>
+<text x="271" y="854" class="small" text-anchor="start">K</text>
+<circle cx="425" cy="820" r="4" fill="#23485c"/>
+<circle cx="480" cy="820" r="4" fill="#23485c"/>
+<path class="wire" d="M425 820 L470 800"/>
+<text x="450" y="783" class="small" text-anchor="middle">K8</text>
+<path class="wire" d="M523 808 L548 820 L523 832 Z M551 805 V835"/>
+<text x="538" y="790" class="small" text-anchor="middle">D8</text>
+<text x="522" y="854" class="small" text-anchor="start">A</text>
+<text x="551" y="854" class="small" text-anchor="start">K</text>
+<circle cx="705" cy="820" r="4" fill="#23485c"/>
+<circle cx="760" cy="820" r="4" fill="#23485c"/>
+<path class="wire" d="M705 820 L750 800"/>
+<text x="730" y="783" class="small" text-anchor="middle">K9</text>
+<path class="wire" d="M803 808 L828 820 L803 832 Z M831 805 V835"/>
+<text x="818" y="790" class="small" text-anchor="middle">D9</text>
+<text x="802" y="854" class="small" text-anchor="start">A</text>
+<text x="831" y="854" class="small" text-anchor="start">K</text>
+<text x="110" y="290" class="small" text-anchor="middle">COL1 / P4</text>
+<path class="wire" d="M210 310 L220 310"/>
+<rect x="220" y="303" width="40" height="14" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M260 310 L270 310"/>
+<text x="240" y="293" class="small" text-anchor="middle">R1 / 10 kΩ</text>
+<circle cx="350" cy="310" r="4" fill="#23485c"/>
+<text x="350" y="300" class="small" text-anchor="middle">3V3</text>
+<text x="390" y="290" class="small" text-anchor="middle">COL2 / P5</text>
+<path class="wire" d="M490 310 L500 310"/>
+<rect x="500" y="303" width="40" height="14" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M540 310 L550 310"/>
+<text x="520" y="293" class="small" text-anchor="middle">R2 / 10 kΩ</text>
+<circle cx="630" cy="310" r="4" fill="#23485c"/>
+<text x="630" y="300" class="small" text-anchor="middle">3V3</text>
+<text x="670" y="290" class="small" text-anchor="middle">COL3 / P6</text>
+<path class="wire" d="M770 310 L780 310"/>
+<rect x="780" y="303" width="40" height="14" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M820 310 L830 310"/>
+<text x="800" y="293" class="small" text-anchor="middle">R3 / 10 kΩ</text>
+<circle cx="910" cy="310" r="4" fill="#23485c"/>
+<text x="910" y="300" class="small" text-anchor="middle">3V3</text>
+<text x="1130" y="397" class="" text-anchor="start">P0  /  ROW1</text>
+<text x="1130" y="447" class="" text-anchor="start">P1  /  ROW2</text>
+<text x="1130" y="497" class="" text-anchor="start">P2  /  ROW3</text>
+<text x="1130" y="967" class="" text-anchor="start">P4  /  COL1</text>
+<text x="1130" y="1017" class="" text-anchor="start">P5  /  COL2</text>
+<text x="1130" y="1067" class="" text-anchor="start">P6  /  COL3</text>
+<text x="1135" y="595" class="small" text-anchor="start">P3: non usato / backlight</text>
+<text x="1135" y="632" class="small" text-anchor="start">P7 e INT: non collegati</text>
+<text x="1135" y="675" class="small" text-anchor="start">Indirizzo: scansione 0x20–0x27</text>
+<text x="1135" y="718" class="small" text-anchor="start">A0–A2: verificare ponti e pull-up</text>
+<text x="1135" y="761" class="small warn" text-anchor="start">Non presumere il pinout LCD.</text>
+<text x="1135" y="800" class="small" text-anchor="start">Righe inattive / colonne: bit = 1.</text>
+<text x="1135" y="835" class="small" text-anchor="start">Una riga attiva alla volta: bit = 0.</text>
+<text x="1135" y="870" class="small" text-anchor="start">Quasi-bidirezionale, non vero Hi-Z.</text>
+<rect x="1830" y="280" width="430" height="550" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1850" y="323" class="head" text-anchor="start">XIAO ESP32-S3</text>
+<text x="1850" y="356" class="small" text-anchor="start">USB-C: 5 V + programmazione</text>
+<circle cx="1540" cy="400" r="4" fill="#23485c"/>
+<text x="1525" y="388" class="small" text-anchor="end">3V3</text>
+<circle cx="1830" cy="400" r="4" fill="#23485c"/>
+<text x="1850" y="407" class="" text-anchor="start">3V3</text>
+<circle cx="1540" cy="450" r="4" fill="#23485c"/>
+<text x="1525" y="438" class="small" text-anchor="end">GND</text>
+<circle cx="1830" cy="450" r="4" fill="#23485c"/>
+<text x="1850" y="457" class="" text-anchor="start">GND</text>
+<circle cx="1540" cy="500" r="4" fill="#23485c"/>
+<text x="1525" y="488" class="small" text-anchor="end">SDA</text>
+<circle cx="1830" cy="500" r="4" fill="#23485c"/>
+<text x="1850" y="507" class="" text-anchor="start">D2 / GPIO3 / SDA</text>
+<circle cx="1540" cy="550" r="4" fill="#23485c"/>
+<text x="1525" y="538" class="small" text-anchor="end">SCL</text>
+<circle cx="1830" cy="550" r="4" fill="#23485c"/>
+<text x="1850" y="557" class="" text-anchor="start">D5 / GPIO6 / SCL</text>
+<text x="1850" y="600" class="small" text-anchor="start">D0 / GPIO1 → LED_DATA</text>
+<text x="1850" y="635" class="small" text-anchor="start">D8 / GPIO7 → ENC_A</text>
+<text x="1850" y="670" class="small" text-anchor="start">D9 / GPIO8 → ENC_B</text>
+<text x="1850" y="705" class="small" text-anchor="start">D10 / GPIO9 → ENC_SW</text>
+<text x="1850" y="750" class="small" text-anchor="start">5V → 5V_USB; BAT+ non collegato</text>
+<text x="1850" y="782" class="small" text-anchor="start">BAT− inutilizzato (internamente GND)</text>
+<text x="1850" y="814" class="small" text-anchor="start">U.FL → antenna esterna XIAO</text>
+<path class="wire" d="M1630 620 L1630 630"/>
+<rect x="1623" y="630" width="14" height="40" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M1630 670 L1630 710"/>
+<circle cx="1630" cy="710" r="4" fill="#23485c"/>
+<text x="1630" y="700" class="small" text-anchor="middle">3V3</text>
+<text x="1645" y="640" class="small" text-anchor="start">R4 *</text>
+<text x="1645" y="662" class="small" text-anchor="start">4,7 kΩ</text>
+<path class="wire" d="M1750 620 L1750 630"/>
+<rect x="1743" y="630" width="14" height="40" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M1750 670 L1750 710"/>
+<circle cx="1750" cy="710" r="4" fill="#23485c"/>
+<text x="1750" y="700" class="small" text-anchor="middle">3V3</text>
+<text x="1765" y="640" class="small" text-anchor="start">R5 *</text>
+<text x="1765" y="662" class="small" text-anchor="start">4,7 kΩ</text>
+<text x="1560" y="755" class="small" text-anchor="start">* R4/R5 opzionali: solo se assenti</text>
+<text x="1560" y="778" class="small" text-anchor="start">sui moduli. Pull-up sempre a 3V3.</text>
+<text x="1560" y="801" class="small" text-anchor="start">Verificare valore equivalente.</text>
+<text x="1560" y="824" class="small" text-anchor="start">Bus condiviso: 100 kHz.</text>
+<path class="wire" d="M75 470 L104 470 Q110 458 116 470 L384 470 Q390 458 396 470 L664 470 Q670 458 676 470 L995 470"/>
+<path class="wire" d="M995 470 L995 390"/>
+<path class="wire" d="M995 390 L1110 390"/>
+<path class="wire" d="M110 360 L145 360"/>
+<path class="wire" d="M200 360 L243 360"/>
+<path class="wire" d="M271 360 L315 360"/>
+<path class="wire" d="M315 360 L315 470"/>
+<path class="wire" d="M390 360 L425 360"/>
+<path class="wire" d="M480 360 L523 360"/>
+<path class="wire" d="M551 360 L595 360"/>
+<path class="wire" d="M595 360 L595 470"/>
+<path class="wire" d="M670 360 L705 360"/>
+<path class="wire" d="M760 360 L803 360"/>
+<path class="wire" d="M831 360 L875 360"/>
+<path class="wire" d="M875 360 L875 470"/>
+<path class="wire" d="M75 700 L104 700 Q110 688 116 700 L384 700 Q390 688 396 700 L664 700 Q670 688 676 700 L1030 700"/>
+<path class="wire" d="M1030 700 L1030 440"/>
+<path class="wire" d="M1030 440 L1110 440"/>
+<path class="wire" d="M110 590 L145 590"/>
+<path class="wire" d="M200 590 L243 590"/>
+<path class="wire" d="M271 590 L315 590"/>
+<path class="wire" d="M315 590 L315 700"/>
+<path class="wire" d="M390 590 L425 590"/>
+<path class="wire" d="M480 590 L523 590"/>
+<path class="wire" d="M551 590 L595 590"/>
+<path class="wire" d="M595 590 L595 700"/>
+<path class="wire" d="M670 590 L705 590"/>
+<path class="wire" d="M760 590 L803 590"/>
+<path class="wire" d="M831 590 L875 590"/>
+<path class="wire" d="M875 590 L875 700"/>
+<path class="wire" d="M75 930 L104 930 Q110 918 116 930 L384 930 Q390 918 396 930 L664 930 Q670 918 676 930 L1065 930"/>
+<path class="wire" d="M1065 930 L1065 490"/>
+<path class="wire" d="M1065 490 L1110 490"/>
+<path class="wire" d="M110 820 L145 820"/>
+<path class="wire" d="M200 820 L243 820"/>
+<path class="wire" d="M271 820 L315 820"/>
+<path class="wire" d="M315 820 L315 930"/>
+<path class="wire" d="M390 820 L425 820"/>
+<path class="wire" d="M480 820 L523 820"/>
+<path class="wire" d="M551 820 L595 820"/>
+<path class="wire" d="M595 820 L595 930"/>
+<path class="wire" d="M670 820 L705 820"/>
+<path class="wire" d="M760 820 L803 820"/>
+<path class="wire" d="M831 820 L875 820"/>
+<path class="wire" d="M875 820 L875 930"/>
+<path class="wire" d="M110 310 L110 985"/>
+<path class="wire" d="M110 985 L384 985 Q390 973 396 985 L664 985 Q670 973 676 985 L975 985"/>
+<path class="wire" d="M975 985 L975 960"/>
+<path class="wire" d="M975 960 L1110 960"/>
+<path class="wire" d="M110 310 L210 310"/>
+<path class="wire" d="M270 310 L350 310"/>
+<path class="wire" d="M390 310 L390 1030"/>
+<path class="wire" d="M390 1030 L664 1030 Q670 1018 676 1030 L1010 1030"/>
+<path class="wire" d="M1010 1030 L1010 1010"/>
+<path class="wire" d="M1010 1010 L1110 1010"/>
+<path class="wire" d="M390 310 L490 310"/>
+<path class="wire" d="M550 310 L630 310"/>
+<path class="wire" d="M670 310 L670 1075"/>
+<path class="wire" d="M670 1075 L1045 1075"/>
+<path class="wire" d="M1045 1075 L1045 1060"/>
+<path class="wire" d="M1045 1060 L1110 1060"/>
+<path class="wire" d="M670 310 L770 310"/>
+<path class="wire" d="M830 310 L910 310"/>
+<path class="wire" d="M1540 400 L1830 400"/>
+<path class="wire" d="M1540 450 L1830 450"/>
+<path class="wire" d="M1540 500 L1830 500"/>
+<path class="wire" d="M1540 550 L1624 550 Q1630 538 1636 550 L1830 550"/>
+<path class="wire" d="M1630 500 L1630 620"/>
+<path class="wire" d="M1750 550 L1750 620"/>
+<circle cx="110" cy="360" r="4" fill="#23485c"/>
+<circle cx="315" cy="470" r="4" fill="#23485c"/>
+<circle cx="390" cy="360" r="4" fill="#23485c"/>
+<circle cx="595" cy="470" r="4" fill="#23485c"/>
+<circle cx="670" cy="360" r="4" fill="#23485c"/>
+<circle cx="875" cy="470" r="4" fill="#23485c"/>
+<circle cx="110" cy="590" r="4" fill="#23485c"/>
+<circle cx="315" cy="700" r="4" fill="#23485c"/>
+<circle cx="390" cy="590" r="4" fill="#23485c"/>
+<circle cx="595" cy="700" r="4" fill="#23485c"/>
+<circle cx="670" cy="590" r="4" fill="#23485c"/>
+<circle cx="875" cy="700" r="4" fill="#23485c"/>
+<circle cx="110" cy="820" r="4" fill="#23485c"/>
+<circle cx="315" cy="930" r="4" fill="#23485c"/>
+<circle cx="390" cy="820" r="4" fill="#23485c"/>
+<circle cx="595" cy="930" r="4" fill="#23485c"/>
+<circle cx="670" cy="820" r="4" fill="#23485c"/>
+<circle cx="875" cy="930" r="4" fill="#23485c"/>
+<circle cx="110" cy="310" r="4" fill="#23485c"/>
+<circle cx="390" cy="310" r="4" fill="#23485c"/>
+<circle cx="670" cy="310" r="4" fill="#23485c"/>
+<circle cx="1630" cy="500" r="4" fill="#23485c"/>
+<circle cx="1750" cy="550" r="4" fill="#23485c"/>
+<text x="50" y="1098" class="small" text-anchor="start">R1–R3: pull-up delle colonne a 3V3. Nessuna riga permanentemente a GND.</text>
+<rect x="1590" y="860" width="670" height="250" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1610" y="900" class="head" text-anchor="start">02 / OLED + ENCODER</text>
+<text x="1610" y="941" class="small" text-anchor="start">OLED VCC → 3V3</text>
+<text x="1610" y="976" class="small" text-anchor="start">OLED GND → GND</text>
+<text x="1610" y="1011" class="small" text-anchor="start">OLED SDA → SDA</text>
+<text x="1610" y="1046" class="small" text-anchor="start">OLED SCL → SCL</text>
+<text x="1940" y="941" class="small" text-anchor="start">ENC + / VCC → 3V3</text>
+<text x="1940" y="971" class="small" text-anchor="start">ENC GND → GND</text>
+<text x="1940" y="1001" class="small" text-anchor="start">ENC CLK / A → ENC_A</text>
+<text x="1940" y="1031" class="small" text-anchor="start">ENC DT / B → ENC_B</text>
+<text x="1940" y="1061" class="small" text-anchor="start">ENC SW → ENC_SW</text>
+<text x="1610" y="1090" class="small warn" text-anchor="start">OLED compatibile a 3,3 V; nessun pull-up a 5 V.</text>
+<rect x="25" y="1130" width="2235" height="390" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="50" y="1170" class="head" text-anchor="start">03 / QUATTRO WS2812B — alimentazione 5V_USB, DATA diretto a 3,3 V</text>
+<text x="50" y="1207" class="warn" text-anchor="start">Collaudo utente superato il 2026-10-11 con Studio 1.0.2: tutti i 24 LED accesi, colori corretti al cambio layer, nessun lampeggio o riavvio osservato. DATA 3,3 V diretto; limite luminosità 10%. · filo corto · luminosità iniziale 10% · nessun level shifter</text>
+<circle cx="90" cy="1255" r="4" fill="#23485c"/>
+<text x="90" y="1245" class="small" text-anchor="middle">5V_USB</text>
+<path class="wire" d="M90 1255 L2160 1255"/>
+<circle cx="90" cy="1455" r="4" fill="#23485c"/>
+<text x="90" y="1445" class="small" text-anchor="middle">GND</text>
+<path class="wire" d="M90 1455 L2160 1455"/>
+<path class="wire" d="M170 1255 L170 1305"/>
+<circle cx="170" cy="1255" r="4" fill="#23485c"/>
+<path class="wire" d="M147 1305 L193 1305"/>
+<path class="wire" d="M147 1317 L193 1317"/>
+<path class="wire" d="M170 1317 L170 1455"/>
+<circle cx="170" cy="1455" r="4" fill="#23485c"/>
+<text x="132" y="1295" class="" text-anchor="start">+</text>
+<text x="130" y="1340" class="" text-anchor="start">−</text>
+<text x="200" y="1295" class="small" text-anchor="start">C1 / 470 µF</text>
+<text x="200" y="1330" class="small" text-anchor="start">10 V</text>
+<circle cx="320" cy="1375" r="4" fill="#23485c"/>
+<text x="320" y="1365" class="small" text-anchor="middle">D0 / LED_DATA</text>
+<path class="wire" d="M320 1375 L425 1375"/>
+<path class="wire" d="M425 1375 L435 1375"/>
+<rect x="435" y="1368" width="40" height="14" fill="white" stroke="#23485c" stroke-width="2"/>
+<path class="wire" d="M475 1375 L485 1375"/>
+<text x="455" y="1358" class="small" text-anchor="middle">R6 / 330 Ω</text>
+<path class="wire" d="M485 1375 L560 1375"/>
+<rect x="560" y="1295" width="230" height="130" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="675" y="1330" class="head" text-anchor="middle">LED 1</text>
+<text x="572" y="1382" class="small" text-anchor="start">DIN</text>
+<text x="778" y="1382" class="small" text-anchor="end">DOUT</text>
+<text x="675" y="1360" class="small" text-anchor="middle">WS2812B</text>
+<path class="wire" d="M675 1255 L675 1295"/>
+<circle cx="675" cy="1255" r="4" fill="#23485c"/>
+<text x="680" y="1285" class="small" text-anchor="start">VDD</text>
+<path class="wire" d="M675 1425 L675 1455"/>
+<circle cx="675" cy="1455" r="4" fill="#23485c"/>
+<path class="wire" d="M790 1375 L970 1375"/>
+<rect x="970" y="1295" width="230" height="130" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1085" y="1330" class="head" text-anchor="middle">LED 2</text>
+<text x="982" y="1382" class="small" text-anchor="start">DIN</text>
+<text x="1188" y="1382" class="small" text-anchor="end">DOUT</text>
+<text x="1085" y="1360" class="small" text-anchor="middle">WS2812B</text>
+<path class="wire" d="M1085 1255 L1085 1295"/>
+<circle cx="1085" cy="1255" r="4" fill="#23485c"/>
+<text x="1090" y="1285" class="small" text-anchor="start">VDD</text>
+<path class="wire" d="M1085 1425 L1085 1455"/>
+<circle cx="1085" cy="1455" r="4" fill="#23485c"/>
+<path class="wire" d="M1200 1375 L1380 1375"/>
+<rect x="1380" y="1295" width="230" height="130" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1495" y="1330" class="head" text-anchor="middle">LED 3 ... 23</text>
+<text x="1392" y="1382" class="small" text-anchor="start">DIN</text>
+<text x="1598" y="1382" class="small" text-anchor="end">DOUT</text>
+<text x="1495" y="1360" class="small" text-anchor="middle">WS2812B</text>
+<path class="wire" d="M1495 1255 L1495 1295"/>
+<circle cx="1495" cy="1255" r="4" fill="#23485c"/>
+<text x="1500" y="1285" class="small" text-anchor="start">VDD</text>
+<path class="wire" d="M1495 1425 L1495 1455"/>
+<circle cx="1495" cy="1455" r="4" fill="#23485c"/>
+<path class="wire" d="M1610 1375 L1790 1375"/>
+<rect x="1790" y="1295" width="230" height="130" rx="10" fill="white" stroke="#9cafbb" stroke-width="1.5"/>
+<text x="1905" y="1330" class="head" text-anchor="middle">LED 24</text>
+<text x="1802" y="1382" class="small" text-anchor="start">DIN</text>
+<text x="2008" y="1382" class="small" text-anchor="end">DOUT</text>
+<text x="1905" y="1360" class="small" text-anchor="middle">WS2812B</text>
+<path class="wire" d="M1905 1255 L1905 1295"/>
+<circle cx="1905" cy="1255" r="4" fill="#23485c"/>
+<text x="1910" y="1285" class="small" text-anchor="start">VDD</text>
+<path class="wire" d="M1905 1425 L1905 1455"/>
+<circle cx="1905" cy="1455" r="4" fill="#23485c"/>
+<path class="wire" d="M2020 1375 L2070 1375"/>
+<text x="2075" y="1382" class="small" text-anchor="start">NC</text>
+<text x="50" y="1500" class="small" text-anchor="start">R6 vicino a DIN1; C1 vicino alla striscia. 5V_USB proviene dal pin 5V XIAO: non collegare una seconda sorgente. LED neri ≠ alimentazione interrotta.</text>
+<text x="35" y="1555" class="small" text-anchor="start">D1, D3, D4, D6, D7 XIAO liberi. Batteria, modulo di carica esterno e interruttore batteria rimossi.</text>
+<text x="35" y="1583" class="small" text-anchor="start">Fonte: hardware/wiring.json · Questo schema non certifica il cablaggio reale né la compatibilità del segnale LED.</text>
+</svg>

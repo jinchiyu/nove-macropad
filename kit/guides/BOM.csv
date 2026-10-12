@@ -1,0 +1,19 @@
+quantity,component,note
+1,XIAO ESP32-S3 standard + antenna,USB-C; not a different ESP32 board
+9,Mechanical switches,14.1 mm plate openings; check your switch geometry
+9,1N4148 diodes,One per key; cathode band towards ROW
+1,PCF8574T / HW-061,3.3 V; address 0x27
+1,OLED 128 x 64 I2C,"SSD1306-compatible, 3.3 V; address 0x3C"
+1,KY-040 encoder,3.3 V; shaft and module must match CAD
+24,WS2812B LEDs,5 V; preserve strip bypass capacitors
+3,10 kohm resistors,Column pull-ups to 3.3 V
+1,330 ohm resistor,D0 to first LED DIN
+1,470 uF / 10 V capacitor,Across 5 V and GND near strip input
+0-2,4.7 kohm I2C pull-ups,Only if absent; prototype already has them
+4,Ruthex RX-M3 x 5.7 inserts,Install in upper shell pillars
+4,M3 x 8 screws,Insert from underside
+4,"OLED screws, diameter 1.70 x 4 mm",Do not substitute longer screws
+1,M7 x 0.75 encoder nut,Printed XY104 nut included
+as needed,"Perfboard, wire, insulation, adhesive",Dry-fit on V29 supports; adhesive depends on materials
+4,Rubber screw-cover feet,Match recesses; source separately
+1,USB-C data cable,Power and configuration; commands via BLE

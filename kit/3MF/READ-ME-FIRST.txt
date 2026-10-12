@@ -1,0 +1,23 @@
+99BIT V29 — ONE PROJECT / UN SOLO PROGETTO
+
+ENGLISH
+Open 99BIT-V29-K1C-All-Plates.3mf AS A PROJECT in Creality Print.
+This is the primary file for Creality Cloud's Print Settings field. Use Replace to replace the previous base-only profile.
+Contains all 15 parts on six plates for K1C, 0.4 mm nozzle, textured PEI.
+1 Base / black PETG / 0.16 mm / supports enabled
+2 Shell / black PETG / 0.16 mm / supports enabled
+3 Control plate / black PETG / 0.16 mm / supports enabled
+4 Diffuser / translucent PETG / 0.16 mm / supports enabled
+5 Nine keycaps + extended 18.8 mm knob / translucent PETG / 0.12 mm / no supports
+6 Encoder nut / black PETG / 0.12 mm / no supports
+One filament per plate. Load the matching spool before each print; no CFS required.
+Layer height and support overrides are stored on each object. The global 0.16 mm value alone does not describe every object.
+Slice the selected plate or use Slice All. Inspect the preview before printing. Individual 01-06 projects remain available as alternatives; do not print both sets.
+
+ITALIANO
+Aprire 99BIT-V29-K1C-All-Plates.3mf COME PROGETTO in Creality Print.
+È il file principale per il campo Impostazioni di stampa su Creality Cloud: usare Sostituisci al posto del precedente profilo con il solo fondo.
+Contiene tutti i 15 pezzi sui sei piatti elencati sopra. K1C, ugello 0,4 mm, PEI testurizzato.
+Nero: piatti 1, 2, 3 e 6. Traslucido: piatti 4 e 5. Caricare la bobina corretta prima della stampa; non serve CFS.
+Layer e supporti sono impostati per oggetto: il valore globale di 0,16 mm non rappresenta tutti i pezzi.
+Affettare il piatto selezionato oppure scegliere Slice tutto e controllare l'anteprima. I progetti singoli 01-06 sono alternative, non pezzi aggiuntivi da stampare.

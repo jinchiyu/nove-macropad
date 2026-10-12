@@ -1,0 +1,21 @@
+NOVE MacroPad by 99BIT — licensing notice
+Required Notice: Copyright 2026 99BIT. NOVE MacroPad. https://github.com/jinchiyu/nove-macropad
+
+ORIGINAL SOFTWARE
+Original firmware, NOVE Studio and original build/helper scripts are licensed under PolyForm Noncommercial License 1.0.0, included in licenses/PolyForm-Noncommercial-1.0.0.md, with the additional permissions below. This is source-available software, not an OSI open-source licence. Third-party code is excluded from these terms.
+
+ADDITIONAL PERMISSION — INTERNAL PRODUCTIVITY
+The copyright holder additionally permits individuals and organisations to run, copy and modify the original software solely to operate their own NOVE MacroPads as internal productivity tools, including during paid professional work. Outputs of ordinary shortcut use are not restricted by this licence. This permission does not authorise selling, renting, licensing for a fee, commercially distributing the original software, providing it as a hosted service, or incorporating it into hardware, software, kits or services supplied commercially to others. Those uses require separate written permission from the copyright holder. Retain this notice and the PolyForm terms with copies. The remaining PolyForm terms apply to this additional permission. This permission does not narrow any permission already granted by PolyForm or third-party licences.
+
+THIRD-PARTY COMPONENTS AND RELINKING
+Third-party libraries, fonts and tools retain their own licences and notices. No restriction in these original-software terms applies to those components. You may modify this combined work for your own use and reverse-engineer it to debug modifications to LGPL-covered components, as required by the applicable LGPL. Corresponding library sources and original source/build inputs are supplied to enable modification and relinking. No trademark licence or endorsement is granted.
+
+MODELS
+STL/3MF model geometry: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). https://creativecommons.org/licenses/by-nc/4.0/
+Noncommercial sharing and remixing with attribution and indication of changes are allowed. Commercial exploitation, including selling model files or printed copies, requires separate permission to the extent covered by the licensor's rights. The additional software permission does not change the model licence.
+
+ORIGINAL DOCUMENTATION AND GALLERY
+Original documentation, photographs and CAD renders in this release: CC BY-NC 4.0. Third-party material retains its own terms.
+
+SINTESI ITALIANA (il testo inglese e le licenze richiamate sono i termini applicabili)
+Codice originale: PolyForm Noncommercial 1.0.0 con permesso aggiuntivo per usare il proprio MacroPad anche nel lavoro quotidiano. Vendita, noleggio, distribuzione commerciale, servizi basati sul software e incorporazione in prodotti commerciali richiedono autorizzazione scritta. Modelli, documentazione e immagini originali: CC BY-NC 4.0, con attribuzione e remix non commerciali consentiti. Le licenze delle dipendenze restano separate.

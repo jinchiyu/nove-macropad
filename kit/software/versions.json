@@ -1,0 +1,17 @@
+{
+  "product": "NOVE MacroPad",
+  "firmware": "studio-1.1.0-rc.1",
+  "studio": "1.1.0-rc.2",
+  "mechanical_revision": "V29",
+  "software_license": "PolyForm-Noncommercial-1.0.0 with NOVE internal-productivity permission",
+  "models_license": "CC BY-NC 4.0",
+  "firmware_source_commit": "e1a2e88",
+  "hardware_recheck": "2026-10-12: 27 input events; test mode exited; 3 layers and revision 18 unchanged; user confirmed macros and layer/colour switching; no firmware flashed",
+  "hardware_validation": "2026-10-12: 9 keys, encoder both directions/click/hold, BLE reconnection, profiles preserved; user confirmed OLED, LEDs, macros and layer switching",
+  "files": {
+    "boot_app0.bin": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+    "bootloader.bin": "1776e4dd896a69d0a5c2e79957b0e2a88aa4129b1381d6478683515a1f6af343",
+    "firmware.bin": "a03a094de48fb378dcc650ed16936d7c68064aa329e21caecd73ea616ae693b3",
+    "partitions.bin": "1d9cca96de0fe07ad7fc0648b9878ddecd9ce565e38b589ad20fea698ed4c80c"
+  }
+}

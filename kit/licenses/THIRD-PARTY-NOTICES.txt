@@ -1,0 +1,3 @@
+Firmware: espressif32 6.9.0; Arduino ESP32 2.0.17; NimBLE-Arduino 1.4.2; U8g2 2.36.2; Adafruit NeoPixel 1.12.3; ArduinoJson 6.21.5. Original notices are retained in dependency-sources and firmware-dependencies.
+Studio: Three.js 0.186.1 (MIT), React/React DOM 19.1.1, lucide-react 0.468.0, Source Sans 3 font package 5.2.5. Notices in studio-dependencies; exact build dependencies in package-lock.json.
+Compiler/ESP-IDF platform tools are resolved by the pinned PlatformIO platform; they are not included as executables in this archive.

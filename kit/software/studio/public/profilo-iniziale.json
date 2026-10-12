@@ -1,0 +1,339 @@
+{
+  "schema": 1,
+  "settings": {
+    "brightness": 10,
+    "ledTimeoutMs": 30000,
+    "displayTimeoutMs": 30000,
+    "encoderReverse": false
+  },
+  "layers": [
+    {
+      "name": "MAC",
+      "color": "#0080ff",
+      "actions": [
+        {
+          "label": "Copy",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 6,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Paste",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 25,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Cut",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 27,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Undo",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 29,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Redo",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 29,
+              "modifiers": 10
+            }
+          ]
+        },
+        {
+          "label": "Screenshot",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 33,
+              "modifiers": 10
+            }
+          ]
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "Play/Pause",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 205
+            }
+          ]
+        },
+        {
+          "label": "Volume +",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 233
+            }
+          ]
+        },
+        {
+          "label": "Volume -",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 234
+            }
+          ]
+        },
+        {
+          "label": "Mute",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 226
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MEDIA",
+      "color": "#cc00cc",
+      "actions": [
+        {
+          "label": "Previous",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 182
+            }
+          ]
+        },
+        {
+          "label": "Play/Pause",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 205
+            }
+          ]
+        },
+        {
+          "label": "Next",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 181
+            }
+          ]
+        },
+        {
+          "label": "Volume -",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 234
+            }
+          ]
+        },
+        {
+          "label": "Mute",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 226
+            }
+          ]
+        },
+        {
+          "label": "Volume +",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 233
+            }
+          ]
+        },
+        {
+          "label": "Stop",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 183
+            }
+          ]
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "Next",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 181
+            }
+          ]
+        },
+        {
+          "label": "Previous",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 182
+            }
+          ]
+        },
+        {
+          "label": "Play/Pause",
+          "steps": [
+            {
+              "kind": "media",
+              "usage": 205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WORK",
+      "color": "#00ff2a",
+      "actions": [
+        {
+          "label": "Find",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 9,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Save",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 22,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "New tab",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 23,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Close tab",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 26,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Reload",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 21,
+              "modifiers": 8
+            }
+          ]
+        },
+        {
+          "label": "Reopen tab",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 23,
+              "modifiers": 10
+            }
+          ]
+        },
+        {
+          "label": "Escape",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 41,
+              "modifiers": 0
+            }
+          ]
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "",
+          "steps": []
+        },
+        {
+          "label": "Next tab",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 43,
+              "modifiers": 1
+            }
+          ]
+        },
+        {
+          "label": "Previous tab",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 43,
+              "modifiers": 3
+            }
+          ]
+        },
+        {
+          "label": "Enter",
+          "steps": [
+            {
+              "kind": "key",
+              "usage": 40,
+              "modifiers": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

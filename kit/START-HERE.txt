@@ -1,0 +1,8 @@
+NOVE by 99BIT / V29 - START HERE / INIZIA QUI
+1. Read guides/99BIT-build-guide-EN-IT.pdf (English pages 1-4, Italiano pagine 5-8).
+2. Buy the components listed in guides/BOM.csv; electronics and soldering are required.
+3. Open 3MF/99BIT-V29-K1C-All-Plates.3mf as a project: all 15 parts on six plates. Individual 3MF projects remain available.
+4. Follow the wiring diagram in guides. USB-C is power/configuration, BLE sends commands.
+5. Install firmware as described in the guide, then open software/Start NOVE Studio.command.
+6. Read licenses before redistribution. Models: CC BY-NC 4.0; software: PolyForm Noncommercial 1.0.0 + NOVE permission (licenses/NOVE-LICENSE.txt).
+Print profiles are for K1C 0.4 mm PETG. Re-slice for your printer. Do not run another machine's G-code.

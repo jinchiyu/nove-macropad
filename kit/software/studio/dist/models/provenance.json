@@ -1,0 +1,248 @@
+{
+  "revision": "V29",
+  "units": "mm",
+  "key_mapping": "Rows from OLED toward front, left to right; CAD key numbers are reversed by row.",
+  "excluded_reference_volumes": [
+    34,
+    35,
+    36,
+    41
+  ],
+  "meshes": [
+    {
+      "node": "key-6",
+      "source": "00.stl",
+      "sha256": "fea821354941540f730764655ea9a8541591ec9893b8485444981186067a9938"
+    },
+    {
+      "node": "key-7",
+      "source": "01.stl",
+      "sha256": "750a5bbd87adc8907e64cc5d7cbb68154a0f6df129bdd78210cad6afe6fdf272"
+    },
+    {
+      "node": "key-8",
+      "source": "02.stl",
+      "sha256": "5990baf138180a928a95c8d91b9de23f0c78fe6e233b78a74dcf04e80d775651"
+    },
+    {
+      "node": "key-3",
+      "source": "03.stl",
+      "sha256": "60d6c20c8f7f72ec826ac13f3bf38f907ab9210af6484d0e93e311f255412392"
+    },
+    {
+      "node": "key-4",
+      "source": "04.stl",
+      "sha256": "2825f0d099033499228001fa22958f8207877c22e53e8b118219a01e4d3f6819"
+    },
+    {
+      "node": "key-5",
+      "source": "05.stl",
+      "sha256": "0b55c89120d2a1209c22b60b25ee5f097b7f01a87625672aa501df91a85cf113"
+    },
+    {
+      "node": "key-0",
+      "source": "06.stl",
+      "sha256": "ae8cbd1d4850f82cfbac662d0173236566724fa43f3147782f78c71cf93d1985"
+    },
+    {
+      "node": "key-1",
+      "source": "07.stl",
+      "sha256": "7de72968bb8a128ac75c35636b73fa5fbc2c481e94ea6eafef828a88ec1af663"
+    },
+    {
+      "node": "key-2",
+      "source": "08.stl",
+      "sha256": "cae3f162fed789fa594fcdf5155b7bb4c4157d4368629cd05bb755f023f9e32e"
+    },
+    {
+      "node": "cad-10",
+      "source": "10.stl",
+      "sha256": "85e94015d4cd357ac5d438e6a0c7062a972e02bb38343389ecfeca9cb78697a2"
+    },
+    {
+      "node": "cad-11",
+      "source": "11.stl",
+      "sha256": "9a79fcaa4aedd138cde624889922f85d4005ca487e3824b425f7b860535d3693"
+    },
+    {
+      "node": "cad-12",
+      "source": "12.stl",
+      "sha256": "4e2e2ea237b690c4801ed3409065261bdaab19311cc82af2ebab2e338e309592"
+    },
+    {
+      "node": "cad-13",
+      "source": "13.stl",
+      "sha256": "ffc6322c27f49807dc46b25723945ca3f4d469ffeb75e13a07c1c3088386d71b"
+    },
+    {
+      "node": "cad-14",
+      "source": "14.stl",
+      "sha256": "0a7768a9085d1b860e5ff855a7d4e1e708cbf6aab76458f5170b22e0bf19dbb8"
+    },
+    {
+      "node": "cad-15",
+      "source": "15.stl",
+      "sha256": "73af9d2ead2ad1ad405f4770f06311a5d1a1fc2bd685cac05c3454e417552074"
+    },
+    {
+      "node": "cad-16",
+      "source": "16.stl",
+      "sha256": "0229584dc1d82b12d8cecbdb65e57f89de0b2bb68ce23eeae265d91ca32b35c5"
+    },
+    {
+      "node": "cad-17",
+      "source": "17.stl",
+      "sha256": "17618e1b2bf89fb73a97c44a51c499fcbdef8cb2c4f744e5acfec8b0f37884f9"
+    },
+    {
+      "node": "cad-18",
+      "source": "18.stl",
+      "sha256": "98a99582b79f17037eba74286164e3686eec661282f3d8968a4ee08405778f82"
+    },
+    {
+      "node": "cad-19",
+      "source": "19.stl",
+      "sha256": "79ff197c1aeaf9344f7b57328bd28cd4049a6c53eec4de9d635455c5734d2842"
+    },
+    {
+      "node": "cad-20",
+      "source": "20.stl",
+      "sha256": "4d53f5440e952000ec0ae30ee7e039451737f074512eb049951aa4cb08670a54"
+    },
+    {
+      "node": "cad-21",
+      "source": "21.stl",
+      "sha256": "53263be2d5c03f97ee14fabbd8a51d925ef89c865d52c7d5f812daa0b39daef4"
+    },
+    {
+      "node": "cad-22",
+      "source": "22.stl",
+      "sha256": "d75db7a53b4c0e115822f2381dd6ba5802d6646098a23b23ccd5dd6fa3cb1938"
+    },
+    {
+      "node": "cad-23",
+      "source": "23.stl",
+      "sha256": "dec48eb8a8aae55c2abce222a424e737ebe2212367a83bfc559b9bfbec40f543"
+    },
+    {
+      "node": "cad-24",
+      "source": "24.stl",
+      "sha256": "aae99113a119640dc2fd4252713f9a4309e8b73804cdb84f89bb785a3094ad75"
+    },
+    {
+      "node": "cad-25",
+      "source": "25.stl",
+      "sha256": "9db33e4d8e3662153f42402846c7a9284f6b142238123a8c96808c4c8a713957"
+    },
+    {
+      "node": "cad-26",
+      "source": "26.stl",
+      "sha256": "288a1b639611b70537c4d2d09f44eac1b4d3009cd066a9794992d3dbaba7e422"
+    },
+    {
+      "node": "cad-27",
+      "source": "27.stl",
+      "sha256": "5f34b27b8be63a194697de70f42cb34a3d005e568846b6ee96589a4d642a8d67"
+    },
+    {
+      "node": "cad-28",
+      "source": "28.stl",
+      "sha256": "0a2abb4afffd0ff15f41f4de3e2fd35562aba8aaaa30ad3fdfe07818bf2fbc98"
+    },
+    {
+      "node": "cad-29",
+      "source": "29.stl",
+      "sha256": "d3d226780e6cd11d728cb87cfceb76d90da2b65cf3e8fb255e5b12e2e707f85a"
+    },
+    {
+      "node": "cad-30",
+      "source": "30.stl",
+      "sha256": "a22a10dcbdbdcee2380cdd627c8f7e6a08971ad2811b3edc09fa461b7ea6be31"
+    },
+    {
+      "node": "cad-31",
+      "source": "31.stl",
+      "sha256": "91219547788c40e97f02470ad35e52ec3de72a8d708e8c60447f55c454a180ee"
+    },
+    {
+      "node": "cad-32",
+      "source": "32.stl",
+      "sha256": "f0b739728c205b77de17bf7b4a4cdde99e3aab29b237e57f9fb156bf195d51bb"
+    },
+    {
+      "node": "cad-33",
+      "source": "33.stl",
+      "sha256": "9e37908a5f4f18ad309c9c57ef9632015ecf095085b30e49027ed4c7b42f5183"
+    },
+    {
+      "node": "cad-37",
+      "source": "37.stl",
+      "sha256": "f16ebd389615d1c83293fe042c6ce39a1f9a9f82a553f00f342fa9bd16c69bd8"
+    },
+    {
+      "node": "cad-38",
+      "source": "38.stl",
+      "sha256": "ade179fe1fb8ff9bc0adeeacf6d7a3d0668e7f0b05332cd85715803b1eb6685c"
+    },
+    {
+      "node": "cad-39",
+      "source": "39.stl",
+      "sha256": "5d3d8d928aed934a856b46c6a2317139ccf99e2d23fcaa652b6098c45485d30d"
+    },
+    {
+      "node": "cad-40",
+      "source": "40.stl",
+      "sha256": "38ba18d888d1b1d4882850d0a75e544e9cbc81b4dedc04a5cb5186829c005b27"
+    },
+    {
+      "node": "cad-42",
+      "source": "42.stl",
+      "sha256": "5783fe0d3557e71e049cd608baed11baeb76ff698af192efea872f747a4b51b3"
+    },
+    {
+      "node": "cad-43",
+      "source": "43.stl",
+      "sha256": "a047cd3504375803d71ab5e5c65c24abd08213417407ec955766ef9e2672e56c"
+    },
+    {
+      "node": "cad-44",
+      "source": "44.stl",
+      "sha256": "6b3683a73eeebca5a19a2834ab8f29b1c72baf9ca3f73d9002efed06c0841330"
+    },
+    {
+      "node": "cad-45",
+      "source": "45.stl",
+      "sha256": "644215a07c729fd7561a2c5d10ddc229c7703347fdda59438b710200ee03b06a"
+    },
+    {
+      "node": "cad-46",
+      "source": "46.stl",
+      "sha256": "e6159fa8c40747cc0319fe07a99a494497f2d2cd31c9c01f48a4c35e02f0147e"
+    },
+    {
+      "node": "cad-47",
+      "source": "47.stl",
+      "sha256": "ff7f972df960d10561d9fcbbb70c8445ba3010ea0bb16dba1e6e8342959751b5"
+    },
+    {
+      "node": "cad-48",
+      "source": "48.stl",
+      "sha256": "c5405abe3a2460775fa844463803d9806efaa93923b5a1449225a485a9bc9e56"
+    },
+    {
+      "node": "cad-49",
+      "source": "49.stl",
+      "sha256": "efe11e45c47bde3050a647eea72b2ceeac8451fec9afe7b77c7c62d48d047bb5"
+    },
+    {
+      "node": "knob",
+      "source": "knob-extended.stl",
+      "sha256": "00adb016b92bf3ace9d193d6968beaaf56f9c0dbdbc816b18b0e9688b49370e1",
+      "translation_mm": [
+        0,
+        -1.759969506697141,
+        6.5682956187656645
+      ]
+    }
+  ]
+}

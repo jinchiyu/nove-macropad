@@ -1,0 +1,145 @@
+{
+  "board": "Seeed Studio XIAO ESP32-S3 standard",
+  "revision": "USB-PCF-RGB24-2026-10-12",
+  "firmware_status": "NOVE Studio 1.1.0-rc.1; hardware collaudato il 2026-10-12: nove tasti, encoder, BLE, OLED, 24 LED, macro e profili conservati. Cablaggio invariato.",
+  "pins": [
+    {
+      "net": "LED_DATA",
+      "label": "D0",
+      "gpio": 1
+    },
+    {
+      "net": "SDA",
+      "label": "D2",
+      "gpio": 3
+    },
+    {
+      "net": "SCL",
+      "label": "D5",
+      "gpio": 6
+    },
+    {
+      "net": "ENC_A",
+      "label": "D8",
+      "gpio": 7
+    },
+    {
+      "net": "ENC_B",
+      "label": "D9",
+      "gpio": 8
+    },
+    {
+      "net": "ENC_SW",
+      "label": "D10",
+      "gpio": 9
+    }
+  ],
+  "unused_xiao": [
+    "D1",
+    "D3",
+    "D4",
+    "D6",
+    "D7"
+  ],
+  "matrix": {
+    "rows": 3,
+    "columns": 3,
+    "diode": "1N4148",
+    "path": "COL -> switch -> diode anode -> diode cathode -> ROW",
+    "column_pullup_ohms": 10000
+  },
+  "expander": {
+    "part": "PCF8574T",
+    "supply": "3V3",
+    "ports": {
+      "ROW1": "P0",
+      "ROW2": "P1",
+      "ROW3": "P2",
+      "COL1": "P4",
+      "COL2": "P5",
+      "COL3": "P6"
+    },
+    "unused": [
+      "P3",
+      "P7"
+    ],
+    "connector_mapping": "Riferimento pinout fornito dall’utente: connettore LCD 16 pin; pin 1 GND, pin 2 VDD. Numerazione fisica da orientare sul pin 1, non dedurre destra/sinistra dal disegno funzionale.",
+    "address": "0x27, rilevato sul prototipo",
+    "lcd_header_pins": {
+      "P0": 4,
+      "P1": 5,
+      "P2": 6,
+      "P3": 15,
+      "P4": 11,
+      "P5": 12,
+      "P6": 13,
+      "P7": 14
+    }
+  },
+  "i2c": {
+    "hz": 100000,
+    "pullup_ohms": 4700,
+    "pullups": "Presenti sul PCF: SDA 4,65 kΩ, SCL 4,71 kΩ; R4/R5 esterne non montate"
+  },
+  "oled": [
+    [
+      "VCC",
+      "3V3"
+    ],
+    [
+      "GND",
+      "GND"
+    ],
+    [
+      "SDA",
+      "SDA"
+    ],
+    [
+      "SCL",
+      "SCL"
+    ]
+  ],
+  "encoder": [
+    [
+      "+ / VCC",
+      "3V3"
+    ],
+    [
+      "GND",
+      "GND"
+    ],
+    [
+      "CLK / A",
+      "ENC_A"
+    ],
+    [
+      "DT / B",
+      "ENC_B"
+    ],
+    [
+      "SW",
+      "ENC_SW"
+    ]
+  ],
+  "led": {
+    "part": "WS2812B",
+    "count": 24,
+    "supply": "5V_USB",
+    "data": "LED_DATA",
+    "series_ohms": 330,
+    "bulk_uf": 470,
+    "bulk_voltage": 10,
+    "initial_brightness_percent": 10,
+    "level_shifter": false,
+    "status": "Collaudo utente superato il 2026-10-11 con Studio 1.0.2: tutti i 24 LED accesi, colori corretti al cambio layer, nessun lampeggio o riavvio osservato. DATA 3,3 V diretto; limite luminosità 10%."
+  },
+  "power": {
+    "source": "USB-C XIAO soltanto",
+    "rails": {
+      "5V_USB": "XIAO 5V -> LED VDD e C1 positivo",
+      "3V3": "XIAO 3V3 -> PCF8574, OLED compatibile, encoder e pull-up",
+      "GND": "Massa comune XIAO, PCF8574, OLED, encoder, LED e C1 negativo"
+    },
+    "battery": "Assente; BAT+ non collegato, BAT- non utilizzato (internamente GND)"
+  }
+}
