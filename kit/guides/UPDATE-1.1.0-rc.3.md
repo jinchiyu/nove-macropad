@@ -21,3 +21,6 @@ Firmware SHA-256: 37de048f909fc1d9898f450e8b6a5f3fa59078806963955a824e5ce6980dfd
 ## Licence
 Original software: PolyForm Noncommercial 1.0.0 plus the NOVE internal-productivity permission. You may use your own MacroPad for professional work. Sale, commercial distribution and exploitation require written permission. Models and original documentation/images: CC BY-NC 4.0. Third-party licences remain intact. Source-available software, not OSI open source.
 IT: Vendita e sfruttamento commerciale richiedono autorizzazione scritta. È consentito usare il proprio dispositivo nel lavoro quotidiano secondo il permesso aggiuntivo NOVE; modelli condivisibili e modificabili per usi non commerciali con attribuzione.
+
+## Documentation refresh
+The bilingual build guide now includes recovery.8, the rc.3 download link, update instructions and licence terms. Assembly instructions and CAD plates are preserved. The standalone NOVE-build-guide-EN-IT-v1.1.0-rc.3.pdf asset is byte-identical to kit/guides/99BIT-build-guide-EN-IT.pdf in the kit (historical internal filename retained for existing links). Firmware and print files are unchanged.
