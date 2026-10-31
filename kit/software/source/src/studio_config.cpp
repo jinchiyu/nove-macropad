@@ -1,4 +1,6 @@
 #include "studio_config.h"
+#include "display.h"
+#include "ble_hid.h"
 #include "studio_defaults.h"
 #include <LittleFS.h>
 #include <Preferences.h>
@@ -103,9 +105,15 @@ void handle(const String &input, bool connected, bool ready, uint8_t layer) {
   if (!strcmp(op, "hello")) {
     data["device"] = "NOVE MacroPad";
     data["protocol"] = 1;
-    data["firmware"] = "studio-1.1.0-rc.1";
+    data["firmware"] = "studio-1.1.0-ble-recovery.8";
     data["maxBytes"] = MaxBytes;
     data["storage"] = fsReady;
+  } else if (!strcmp(op, "oled_recover")) {
+    data["recovered"]=display::recover();
+  } else if (!strcmp(op, "ble_diag")) {
+    ble_diagnostic::snapshot(data);
+  } else if (!strcmp(op, "oled_diag")) {
+    display::diagnostic(data);
   } else if (!strcmp(op, "status")) {
     data["connected"] = connected;
     data["ready"] = ready;

@@ -52,7 +52,7 @@ void setup() {
   ble.begin();
   lastActivity = millis();
   startup.begin(millis());
-  LOGF("[BOOT] NOVE Studio 1.1.0-rc.1\n");
+  LOGF("[BOOT] NOVE Studio 1.1.0-ble-recovery.8\n");
 }
 void loop() {
   uint32_t now = millis();
@@ -77,6 +77,24 @@ void loop() {
   bool pressed[9]{}, activity = false;
   matrix.scan(now, pressed, activity);
   auto enc = encoder::poll(now);
+  bool wakeInput = enc.steps != 0 || enc.button != core::ButtonEvent::None;
+  for (bool key : pressed)
+    wakeInput = wakeInput || key;
+  if (!testing && ble.resumeOnInput(wakeInput)) {
+    // Clear old reports and consume the whole wake gesture before dispatching macros.
+    runner.reset(ble);
+    ble.poll();
+    session = ble.session();
+    ready = wasReady = ble.ready();
+    for (bool &key : pressed)
+      key = false;
+    enc.steps = 0;
+    enc.button = core::ButtonEvent::None;
+    lastActivity = now;
+    ui.invalidate();
+    forceLed = true;
+  }
+
   if (startup.update(now, applied || testing || activity || enc.activity || matrix.anyDown() ||
                               enc.down)) {
     ui.invalidate();
@@ -116,8 +134,11 @@ void loop() {
   }
   if (!testing)
     runner.tick(now, ble);
+  display::pollDiagnostics(now);
+  if(display::takeRecovered()) { lastActivity=now;ui.invalidate(); }
   auto &p = studio::profile;
   uint32_t idle = now - lastActivity;
+  display::activity(idle, (activity?1:0) | (enc.activity?2:0) | (matrix.anyDown()?4:0) | (enc.down?8:0) | (runner.busy()?16:0), p.displayTimeout);
   bool screenOff = p.displayTimeout && idle >= p.displayTimeout && !testing;
   if (startup.active) {
     if (startup.oledDue(now))

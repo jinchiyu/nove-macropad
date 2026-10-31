@@ -1,3 +1,5 @@
+UPDATE 31 October 2026 / Aggiornamento: package v1.1.0-rc.3, firmware recovery.8. Read guides/UPDATE-1.1.0-rc.3.md (relative to kit). Historical test results below remain historical.
+
 NOVE by 99BIT / V29 - START HERE / INIZIA QUI
 1. Read guides/99BIT-build-guide-EN-IT.pdf (English pages 1-4, Italiano pagine 5-8).
 2. Buy the components listed in guides/BOM.csv; electronics and soldering are required.

@@ -1,3 +1,8 @@
+# Current update: v1.1.0-rc.3
+See UPDATE-1.1.0-rc.3.md for October 24 BLE measurements and October 31 owner confirmation.
+
+## Historical validation follows
+
 # Aggiornamento dispositivo — NOVE Studio 1.1.0-rc.1
 
 12 ottobre 2026. Firmware installato dal binario candidato associato al commit `e1a2e88`.
